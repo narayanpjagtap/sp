@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Screen Video</title>
+    <title>Full Screen GIF</title>
     <style>
         * {
             margin: 0;
@@ -17,14 +17,14 @@
             height: 100vh;
             background-color: black;
         }
-        .video-container {
+        .gif-container {
             width: 75vw;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        video {
+        img {
             width: 100%;
             height: 100%;
             object-fit: contain;
@@ -32,11 +32,8 @@
     </style>
 </head>
 <body>
-    <div class="video-container">
-        <video autoplay loop muted>
-            <source src="https://drive.google.com/uc?export=download&id=15WOKxJrIDmyjGpdqtEyf-rOoN4hklgE2" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <div class="gif-container">
+        <img src="sp.gif" alt="Animated GIF">
     </div>
 </body>
 </html>
